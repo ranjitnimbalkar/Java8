@@ -27,7 +27,7 @@ public class SuplierTest {
 		
 		System.out.println("Using Annonymous class : " + annoName);
 
-		// Supplier test with lambda expression
+		//2. Supplier test with lambda expression
 		String name = SuplierTest.getName(() -> "FirstName", () -> "LastName");
 		System.out.println("Lambda Function for supplier : "+ name);
 		
